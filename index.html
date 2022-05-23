@@ -3,412 +3,1911 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Restaurant</title>
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="sass/main.css">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
+    <!--=============== CSS ===============-->
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js"
+        integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
+        crossorigin="anonymous"></script>
+
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/wickedpicker.css" rel="stylesheet" type='text/css' media="all" />
+    <!-- <link href="css/style.css" rel='stylesheet' type='text/css' /> -->
+    <!--fonts-->
+    <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+
+
+    <title>C-Cab Online Taxi Booking Site</title>
+
+
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <!--
+			CSS
+			============================================= -->
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/main.css">
+
 </head>
 
 <body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <i class="ri-steering-line"></i>
+                C-Cab
+            </a>
 
-    <header>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#review" class="nav__link">Reviews</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#Contact-us" class="nav__link">Contact Us</a>
+                    </li>
+                </ul>
 
-        <a href="#" class="logo"><i class="fas fa-utensils"></i>food</a>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
 
-        <div id="menu-bar" class="fas fa-bars"></div>
-
-        <nav class="navbar">
-            <a href="#home">home</a>
-            <a href="#speciality">speciality</a>
-            <a href="#popular">popular</a>
-            <a href="#gallery">gallery</a>
-            <a href="#review">review</a>
-            <a href="#order">order</a>
+            <!-- ------------Toggle Button----- -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
         </nav>
 
     </header>
 
+    <!--==================== MAIN ====================-->
 
-    <section id="home" class="home">
-        <div class="content">
-            <!-- <h3>food made with love</h3> -->
-            <h3>It always tastes better with family.</h3>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni, fuga voluptatibus ad quasi nobis
-                necessitatibus fugit ea labore dolore explicabo architecto quam quidem iusto nesciunt id enim harum
-                tenetur deserunt!</p>
-            <a href="#" class="btn">order now</a>
+    <div class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="shape shape__big"></div>
+            <div class="shape shape__small"></div>
+
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Choose The Best Ride For You
+                    </h1>
+
+
+                    <h3 class="home__elec">
+                        <i class="ri-flashlight-fill"></i>
+                        Request a trip anywhere, anytime.
+                        <!-- PLug-in Hybrid car -->
+                    </h3>
+                </div>
+
+                <img src="assets/img/p7.png" alt="" class="home__img">
+
+                <div class="home__car">
+                    <div class="home__car-data">
+                        <div class="home___car-icon">
+                            <i class="ri-flashlight-fill"></i>
+                        </div>
+                        <h2 class="home__car-number">Fast </h2>
+                        <h3 class="home__car-name">Rides</h3>
+                    </div>
+                    <div class="home__car-data">
+                        <div class="home___car-icon">
+                            <i class="ri-dashboard-3-line"></i>
+                        </div>
+                        <h2 class="home__car-number">24/7</h2>
+                        <h3 class="home__car-name">AVAILABLE</h3>
+                    </div>
+                    <div class="home__car-data">
+                        <div class="home___car-icon">
+                            <i class="ri-shield-cross-fill"></i>
+                        </div>
+                        <h2 class="home__car-number">Secure</h2>
+                        <h3 class="home__car-name">Rides</h3>
+                    </div>
+                </div>
+
+
+                <a href="btn.html" class="home__button view-project-btn">BOOK <br> NOW</a>
+
+                <!-- <h2 class="home__subtitle">
+                    BMW 5 SERIES
+                    The one you can always count on
+                </h2> -->
+
+            </div>
+
+        </section>
+
+
+        <!--==================== ABOUT ====================-->
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__group">
+                    <img src="assets/img/g3.jpg" alt="" class="about__img">
+
+                    <div class="about__card">
+                        <h3 class="about__card-title">24/7 support</h3>
+                        <p class="about__card-description">
+                            The holy grail of budget travelers
+                            <!-- Superchargers placed along routes -->
+                        </p>
+                    </div>
+                </div>
+
+                <div class="about__data">
+                    <h2 class="section__title about__title">
+                        <!-- Machines With <br> Future Technology -->
+                        <!-- The one you can always count on -->
+                        Taxi Service Always <br> There For You.
+                    </h2>
+
+                    <p class="about__description">
+                        See the future with high-performance electric cars produced by
+                        renowned brands. They feature futuristic builds and designs with
+                        new and innovative platforms that last a long time.
+                    </p>
+
+                    <a href="#" class="button">Know more</a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== POPULAR ====================-->
+        <!-- <section class="popular section" id="popular">
+            
+            <h3 class="heading"> customer's review </h3> -->
+
+        <section class="review" id="review">
+
+            <h1 class="heading"> customer's review </h1>
+            <h1 class="headingg"> What they say </h1>
+
+            <div class="swiper-container review-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="img/pic-1.png" alt="">
+                            <div class="user-info">
+                                <h3>Raphael</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Very good service and friendly driver. Car was neat and clean.The Driver treated
+                            us like his family members.
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="img/pic-2.png" alt="">
+                            <div class="user-info">
+                                <h3>Sophia</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Best in the business , amazing driver Mr.Ydriss very knowledgeable and friendly , highly
+                            recommended
+                        </p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="img/pic-3.png" alt="">
+                            <div class="user-info">
+                                <h3>James R.</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Our experience turned out to be even better. Excellent driving by Mr. Ydriss and amazingly
+                            courteous..</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="img/pic-4.png" alt="">
+                            <div class="user-info">
+                                <h3>Lili.</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Ydriss is very proffesional and rates were competetive as well compared to others, Highly
+                            recommended.</p>
+           
+        </section>
+
+
+        <section>
+            <div>
+                <center>
+                    <script src="https://cdn03.jotfor.ms/static/prototype.forms.js" type="text/javascript"></script>
+<script src="https://cdn01.jotfor.ms/static/jotform.forms.js?3.3.33370" type="text/javascript"></script>
+<script type="text/javascript">	JotForm.newDefaultTheme = false;
+	JotForm.extendsNewTheme = false;
+	JotForm.newPaymentUIForNewCreatedForms = false;
+	JotForm.highlightInputs = false;
+
+	JotForm.init(function(){
+	/*INIT-START*/
+if (window.JotForm && JotForm.accessible) $('input_3').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_9').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_10').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_11').setAttribute('tabindex',0);
+if (window.JotForm && JotForm.accessible) $('input_19').setAttribute('tabindex',0);
+      JotForm.alterTexts({"confirmClearForm":"Are you sure you want to clear the form","incompleteFields":"Please complete required (*) fields.","lessThan":"Your score should be less than"});
+	/*INIT-END*/
+	});
+
+   JotForm.prepareCalculationsOnTheFly([null,null,null,{"name":"firstName","qid":"3","text":"First Name","type":"control_textbox"},null,null,null,null,{"name":"submit","qid":"8","text":"Submit","type":"control_button"},{"name":"lastName","qid":"9","text":"Last Name","type":"control_textbox"},{"name":"email10","qid":"10","text":"E-mail","type":"control_textbox"},{"name":"phone","qid":"11","text":"Phone","type":"control_textbox"},null,null,{"name":"contactUs","qid":"14","text":"Contact Us","type":"control_head"},null,null,null,null,{"name":"message","qid":"19","text":"Message","type":"control_textarea"}]);
+   setTimeout(function() {
+JotForm.paymentExtrasOnTheFly([null,null,null,{"name":"firstName","qid":"3","text":"First Name","type":"control_textbox"},null,null,null,null,{"name":"submit","qid":"8","text":"Submit","type":"control_button"},{"name":"lastName","qid":"9","text":"Last Name","type":"control_textbox"},{"name":"email10","qid":"10","text":"E-mail","type":"control_textbox"},{"name":"phone","qid":"11","text":"Phone","type":"control_textbox"},null,null,{"name":"contactUs","qid":"14","text":"Contact Us","type":"control_head"},null,null,null,null,{"name":"message","qid":"19","text":"Message","type":"control_textarea"}]);}, 20); 
+</script>
+<link href="https://cdn01.jotfor.ms/static/formCss.css?3.3.33370" rel="stylesheet" type="text/css" />
+<style type="text/css">@media print{.form-section{display:inline!important}.form-pagebreak{display:none!important}.form-section-closed{height:auto!important}.page-section{position:initial!important}}</style>
+<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/nova.css?3.3.33370" />
+<link type="text/css" rel="stylesheet" href="https://cdn03.jotfor.ms/themes/CSS/566a91c2977cdfcd478b4567.css?themeRevisionID=58c6459d9a11c7136a8b4567"/>
+<link type="text/css" rel="stylesheet" href="https://cdn01.jotfor.ms/css/styles/payment/payment_feature.css?3.3.33370" />
+<style type="text/css">
+    .form-label-left{
+        width:150px;
+    }
+    .form-line{
+        padding-top:5px;
+        padding-bottom:5px;
+    }
+    .form-label-right{
+        width:150px;
+    }
+    .form-all{
+        width:480px;
+        color:rgb(5, 117, 236) !important;
+        font-family:'Roboto';
+        font-size:14px;
+    }
+    .form-radio-item label, .form-checkbox-item label, .form-grading-label, .form-header{
+        color: #0D0D0D;
+    }
+
+</style>
+
+<style type="text/css" id="form-designer-style">
+    /* Injected CSS Code */
+@import "https://fonts.googleapis.com/css?family=Roboto:light,lightitalic,normal,italic,bold,bolditalic";
+.form-all:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.form-all {
+  font-family: "Roboto", sans-serif;
+}
+.form-all {
+  width: 480px;
+}
+.form-label-left,
+.form-label-right {
+  width: 150px;
+}
+.form-label {
+  white-space: normal;
+}
+.form-label.form-label-auto {
+  display: block;
+  float: none;
+  word-break: break-word;
+  text-align: left;
+}
+.form-label-left {
+  display: inline-block;
+  white-space: normal;
+  float: left;
+  text-align: left;
+}
+.form-label-right {
+  display: inline-block;
+  white-space: normal;
+  float: left;
+  text-align: right;
+}
+.form-label-top {
+  white-space: normal;
+  display: block;
+  float: none;
+  text-align: left;
+}
+.form-radio-item label:before {
+  top: 0;
+}
+.form-all {
+  font-size: 14px;
+}
+.form-label {
+  font-weight: normal;
+  font-size: 0.95em;
+}
+.supernova {
+  background-color: rgba(255, 255, 255, 0);
+  background-color: #ffffff;
+}
+.supernova body {
+  background-color: transparent;
+}
+/*
+@width30: (unit(@formWidth, px) + 60px);
+@width60: (unit(@formWidth, px)+ 120px);
+@width90: (unit(@formWidth, px)+ 180px);
+*/
+/* | */
+@media screen and (min-width: 480px) {
+  .supernova .form-all {
+    border: 1px solid #e6e6e6;
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.1);
+  }
+}
+/* | */
+/* | */
+@media screen and (max-width: 480px) {
+  .jotform-form .form-all {
+    margin: 0;
+    width: 100%;
+  }
+}
+/* | */
+/* | */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .jotform-form .form-all {
+    margin: 0;
+    width: 100%;
+  }
+}
+/* | */
+/* | */
+@media screen and (min-width: 480px) and (max-width: 479px) {
+  .jotform-form .form-all {
+    margin: 0;
+    width: 100%;
+  }
+}
+/* | */
+/* | */
+@media screen and (min-width: 768px) {
+  .jotform-form {
+    padding: 60px 0;
+  }
+}
+/* | */
+/* | */
+@media screen and (max-width: 479px) {
+  .jotform-form .form-all {
+    margin: 0;
+    width: 100%;
+  }
+}
+/* | */
+.supernova .form-all,
+.form-all {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid transparent;
+}
+.form-header-group {
+  border-color: rgba(230, 230, 230, 0);
+}
+.form-matrix-table tr {
+  border-color: rgba(230, 230, 230, 0);
+}
+.form-matrix-table tr:nth-child(2n) {
+  background-color: rgba(242, 242, 242, 0);
+}
+.form-all {
+  color: #0575ec;
+}
+.form-header-group .form-header {
+  color: #0575ec;
+}
+.form-header-group .form-subHeader {
+  color: #2a8ffa;
+}
+.form-sub-label {
+  color: #2a8ffa;
+}
+.form-label-top,
+.form-label-left,
+.form-label-right,
+.form-html {
+  color: #2a8ffa;
+}
+.form-checkbox-item label,
+.form-radio-item label {
+  color: #0575ec;
+}
+.form-line.form-line-active {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -ms-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -ms-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  background-color: rgba(255, 255, 224, 0);
+}
+/* omer */
+.form-radio-item,
+.form-checkbox-item {
+  padding-bottom: 0px !important;
+}
+.form-radio-item:last-child,
+.form-checkbox-item:last-child {
+  padding-bottom: 0;
+}
+/* omer */
+.form-single-column .form-checkbox-item,
+.form-single-column .form-radio-item {
+  width: 100%;
+}
+.form-checkbox-item .editor-container div,
+.form-radio-item .editor-container div {
+  position: relative;
+}
+.form-checkbox-item .editor-container div:before,
+.form-radio-item .editor-container div:before {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  left: 0;
+  width: 18px;
+  height: 18px;
+}
+.form-checkbox-item,
+.form-radio-item {
+  padding-left: 2px;
+}
+.form-checkbox-item input,
+.form-radio-item input {
+  margin-top: 2px;
+}
+.supernova {
+  height: 100%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+  background-repeat: repeat;
+}
+.supernova {
+  background-image: none;
+}
+#stage {
+  background-image: none;
+}
+/* | */
+.form-all {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+  background-repeat: repeat;
+}
+.form-header-group {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center top;
+}
+.form-line {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.form-line {
+  padding: 8px 36px;
+}
+.form-all .form-textbox,
+.form-all .form-radio-other-input,
+.form-all .form-checkbox-other-input,
+.form-all .form-captcha input,
+.form-all .form-spinner input,
+.form-all .form-pagebreak-back,
+.form-all .form-pagebreak-next,
+.form-all .qq-upload-button,
+.form-all .form-error-message {
+  border-radius: 20px;
+}
+.form-all .form-sub-label {
+  margin-left: 3px;
+}
+.form-all .form-textarea {
+  border-radius: 20px;
+  padding: 10px;
+}
+.form-all .form-submit-button,
+.form-all .form-submit-reset,
+.form-all .form-submit-print {
+  border-radius: 100px;
+}
+.form-all .form-sub-label {
+  margin-left: 3px;
+}
+.form-all {
+  border-radius: 6px;
+}
+.form-section:first-child {
+  border-radius: 6px 6px 0 0;
+}
+.form-section:last-child {
+  border-radius: 0 0 6px 6px;
+}
+.form-all .qq-upload-button,
+.form-all .form-submit-button,
+.form-all .form-submit-reset,
+.form-all .form-submit-print {
+  font-size: 1em;
+  padding: 9px 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+.form-all .form-pagebreak-back,
+.form-all .form-pagebreak-next {
+  font-size: 1em;
+  padding: 9px 15px;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+}
+/*
+& when ( @buttonFontType = google ) {
+	@import (css) "@{buttonFontLink}";
+}
+*/
+h2.form-header {
+  line-height: 1.618em;
+  font-size: 1.714em;
+}
+h2 ~ .form-subHeader {
+  line-height: 1.5em;
+  font-size: 1.071em;
+}
+.form-header-group {
+  text-align: left;
+}
+/*.form-dropdown,
+.form-radio-item,
+.form-checkbox-item,
+.form-radio-other-input,
+.form-checkbox-other-input,*/
+.form-captcha input,
+.form-spinner input,
+.form-error-message {
+  padding: 4px 3px 2px 3px;
+}
+.form-header-group {
+  font-family: "Roboto", sans-serif;
+}
+.form-section {
+  padding: 0px 0px 0px 0px;
+}
+.form-header-group {
+  margin: 0px 0px 0px 0px;
+}
+.form-header-group {
+  padding: 12px 36px 12px 36px;
+}
+.form-header-group {
+  background-color: #ffffff;
+}
+.form-textbox,
+.form-textarea {
+  padding: 4px 3px 2px 3px;
+}
+.form-textbox,
+.form-textarea,
+.form-radio-other-input,
+.form-checkbox-other-input,
+.form-captcha input,
+.form-spinner input {
+  background-color: #ffffff;
+}
+.form-matrix-row-headers,
+.form-matrix-column-headers,
+.form-matrix-values {
+  padding: 4px;
+}
+[data-type="control_dropdown"] .form-input,
+[data-type="control_dropdown"] .form-input-wide {
+  width: 150px;
+}
+.form-label {
+  font-family: "Roboto", sans-serif;
+}
+li[data-type="control_image"] div {
+  text-align: left;
+}
+li[data-type="control_image"] img {
+  border: none;
+  border-width: 0px !important;
+  border-style: solid !important;
+  border-color: false !important;
+}
+.form-line-column {
+  width: auto;
+}
+.form-line-error {
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: inset 0px 3px 11px -7px #ff3200;
+}
+.form-line-error input:not(#coupon-input),
+.form-line-error textarea,
+.form-line-error .form-validation-error {
+  -webkit-transition-property: none;
+  -moz-transition-property: none;
+  -ms-transition-property: none;
+  -o-transition-property: none;
+  transition-property: none;
+  -webkit-transition-duration: 0.3s;
+  -moz-transition-duration: 0.3s;
+  -ms-transition-duration: 0.3s;
+  -o-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease;
+  -moz-transition-timing-function: ease;
+  -ms-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  border: 1px solid #fff4f4;
+  box-shadow: 0 0 3px #fff4f4;
+}
+.form-line-error .form-error-message {
+  margin: 0;
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  right: 0;
+  font-size: 12px;
+  position: absolute!important;
+  box-shadow: none;
+  top: 0px;
+  color: #FFF;
+  background: #ff3200;
+  padding: 0px 5px;
+  bottom: auto;
+  border-radius: 0;
+  box-shadow: 0px 2px 4px rgba(102, 102, 102, 0.5);
+}
+.form-line-error .form-error-message img,
+.form-line-error .form-error-message .form-error-arrow {
+  display: none;
+}
+.ie-8 .form-all {
+  margin-top: auto;
+  margin-top: initial;
+}
+.ie-8 .form-all:before {
+  display: none;
+}
+[data-type="control_clear"] {
+  display: none;
+}
+/* | */
+@media screen and (max-width: 480px), screen and (max-device-width: 767px) and (orientation: portrait), screen and (max-device-width: 415px) and (orientation: landscape) {
+  .testOne {
+    letter-spacing: 0;
+  }
+  .form-all {
+    border: 0;
+    max-width: initial;
+  }
+  .form-sub-label-container {
+    width: 100%;
+    margin: 0;
+    margin-right: 0;
+    float: left;
+    box-sizing: border-box;
+  }
+  span.form-sub-label-container + span.form-sub-label-container {
+    margin-right: 0;
+  }
+  .form-sub-label {
+    white-space: normal;
+  }
+  .form-address-table td,
+  .form-address-table th {
+    padding: 0 1px 10px;
+  }
+  .form-submit-button,
+  .form-submit-print,
+  .form-submit-reset {
+    width: 100%;
+    margin-left: 0!important;
+  }
+  div[id*=at_] {
+    font-size: 14px;
+    font-weight: 700;
+    height: 8px;
+    margin-top: 6px;
+  }
+  .showAutoCalendar {
+    width: 20px;
+  }
+  img.form-image {
+    max-width: 100%;
+    height: auto;
+  }
+  .form-matrix-row-headers {
+    width: 100%;
+    word-break: break-all;
+    min-width: 80px;
+  }
+  .form-collapse-table,
+  .form-header-group {
+    margin: 0;
+  }
+  .form-collapse-table {
+    height: 100%;
+    display: inline-block;
+    width: 100%;
+  }
+  .form-collapse-hidden {
+    display: none !important;
+  }
+  .form-input {
+    width: 100%;
+  }
+  .form-label {
+    width: 100% !important;
+  }
+  .form-label-left,
+  .form-label-right {
+    display: block;
+    float: none;
+    text-align: left;
+    width: auto!important;
+  }
+  .form-line,
+  .form-line.form-line-column {
+    padding: 2% 5%;
+    box-sizing: border-box;
+  }
+  input[type=text],
+  input[type=email],
+  input[type=tel],
+  textarea {
+    width: 100%;
+    box-sizing: border-box;
+    max-width: initial !important;
+  }
+  .form-radio-other-input,
+  .form-checkbox-other-input {
+    max-width: 55% !important;
+  }
+  .form-dropdown,
+  .form-textarea,
+  .form-textbox {
+    width: 100%!important;
+    box-sizing: border-box;
+  }
+  .form-input,
+  .form-input-wide,
+  .form-textarea,
+  .form-textbox,
+  .form-dropdown {
+    max-width: initial!important;
+  }
+  .form-checkbox-item:not(#foo),
+  .form-radio-item:not(#foo) {
+    width: 100%;
+  }
+  .form-address-city,
+  .form-address-line,
+  .form-address-postal,
+  .form-address-state,
+  .form-address-table,
+  .form-address-table .form-sub-label-container,
+  .form-address-table select,
+  .form-input {
+    width: 100%;
+  }
+  div.form-header-group {
+    padding: 12px 36px !important;
+    padding-left: 5%!important;
+    padding-right: 5%!important;
+    margin: 0 0px 2% !important;
+    box-sizing: border-box;
+  }
+  div.form-header-group.hasImage img {
+    max-width: 100%;
+  }
+  [data-type="control_button"] {
+    margin-bottom: 0 !important;
+  }
+  [data-type=control_fullname] .form-sub-label-container {
+    width: 48%;
+  }
+  [data-type=control_fullname] .form-sub-label-container:first-child {
+    margin-right: 4%;
+  }
+  [data-type=control_phone] .form-sub-label-container {
+    width: 65%;
+    margin-right: 0;
+    margin-left: 0;
+    float: left;
+  }
+  [data-type=control_phone] .form-sub-label-container:first-child {
+    width: 31%;
+    margin-right: 4%;
+  }
+  [data-type=control_datetime] .allowTime-container {
+    width: 100%;
+  }
+  [data-type=control_datetime] .allowTime-container .form-sub-label-container {
+    width: 24%!important;
+    margin-left: 6%;
+    margin-right: 0;
+  }
+  [data-type=control_datetime] .allowTime-container .form-sub-label-container:first-child {
+    margin-left: 0;
+  }
+  [data-type=control_datetime] span + span + span > span:first-child {
+    display: block;
+    width: 100% !important;
+  }
+  [data-type=control_birthdate] .form-sub-label-container,
+  [data-type=control_time] .form-sub-label-container {
+    width: 27.3%!important;
+    margin-right: 6% !important;
+  }
+  [data-type=control_time] .form-sub-label-container:last-child {
+    width: 33.3%!important;
+    margin-right: 0 !important;
+  }
+  .form-pagebreak-back-container,
+  .form-pagebreak-next-container {
+    min-height: 1px;
+    width: 50% !important;
+  }
+  .form-pagebreak-back,
+  .form-pagebreak-next,
+  .form-product-item.hover-product-item {
+    width: 100%;
+  }
+  .form-pagebreak-back-container {
+    padding: 0;
+    text-align: right;
+  }
+  .form-pagebreak-next-container {
+    padding: 0;
+    text-align: left;
+  }
+  .form-pagebreak {
+    margin: 0 auto;
+  }
+  .form-buttons-wrapper {
+    margin: 0!important;
+    margin-left: 0!important;
+  }
+  .form-buttons-wrapper button {
+    width: 100%;
+  }
+  .form-buttons-wrapper .form-submit-print {
+    margin: 0 !important;
+  }
+  table {
+    width: 100%!important;
+    max-width: initial!important;
+  }
+  table td + td {
+    padding-left: 3%;
+  }
+  .form-checkbox-item,
+  .form-radio-item {
+    white-space: normal!important;
+  }
+  .form-checkbox-item input,
+  .form-radio-item input {
+    width: auto;
+  }
+  .form-collapse-table {
+    margin: 0 5%;
+    display: block;
+    zoom: 1;
+    width: auto;
+  }
+  .form-collapse-table:before,
+  .form-collapse-table:after {
+    display: table;
+    content: '';
+    line-height: 0;
+  }
+  .form-collapse-table:after {
+    clear: both;
+  }
+  .fb-like-box {
+    width: 98% !important;
+  }
+  .form-error-message {
+    clear: both;
+    bottom: -10px;
+  }
+  .date-separate,
+  .phone-separate {
+    display: none;
+  }
+  .custom-field-frame,
+  .direct-embed-widgets,
+  .signature-pad-wrapper {
+    width: 100% !important;
+  }
+}
+/* | */
+
+/*__INSPECT_SEPERATOR__*/
+/*---------------------
+Theme: Generic Theme
+Author: Elton Cris - idarktech@jotform.com
+www.jotform.com
+----------------------*/
+.form-all {
+    -moz-box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+    box-sizing : border-box;
+    -moz-box-shadow : 0 1px 4px rgba(0, 0, 0, .25);
+    -webkit-box-shadow : 0 1px 4px rgba(0, 0, 0, .25);
+    box-shadow : 0 1px 4px rgba(0, 0, 0, .25) !important;
+}
+
+[data-type="control_head"] {
+    padding-bottom : 20px;
+}
+
+/*responsive fields*/
+[data-type="control_textbox"] .form-textbox, 
+[data-type="control_fullname"] .form-textbox,
+[data-type="control_email"] .form-textbox,
+[data-type="control_textarea"] .form-textarea, 
+[data-type="control_dropdown"] .form-dropdown {
+    width : 100% !important;
+    max-width : none !important;
+}
+
+.form-textbox, .form-textarea, .form-dropdown {
+    max-width : none !important;
+    box-shadow : none;
+    outline : none;
+    box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing : border-box;
+    font-family : inherit;
+    padding : 8px;
+    transition : .3s ease-in-out;
+    box-shadow : 0 1px 2px rgba(0, 0, 0, .15) inset;
+}
+
+.form-textarea-limit>span {
+    display : block;
+}
+
+[data-type="control_dropdown"] .form-input, 
+[data-type="control_dropdown"] .form-input-wide {
+    width : 100%;
+}
+
+/*input focus*/
+.form-line-active input:focus, .form-line-active textarea:focus, .form-line-active select:focus {
+    outline : 0;
+    border-color : 1px solid rgba(82, 168, 236, 0.8) !important;
+    box-shadow : inset 0 1px 3px rgba(0, 0, 0, 0.1),0 0 8px rgba(82, 168, 236, 0.6);
+}
+
+/*reset error*/
+.form-line-error {
+    box-shadow : none;
+}
+
+/*input error*/
+.form-line-error input:not(#coupon-input), .form-line-error textarea, .form-line-error select, .form-line-error .form-validation-error {
+    border : 1px solid #e15353 !important;
+    box-shadow : none !important;
+}
+
+.form-line-active {
+    color : inherit !important;
+}
+
+/*responsive content -wide or shrink*/
+.form-label {
+    width : 35% !important;
+    box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing : border-box;
+}
+
+.form-label-top {
+    width : 100% !important;
+}
+
+.form-line {
+    box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+    -moz-box-sizing : border-box;
+    width : 100%;
+}
+
+.form-checkbox-other-input {
+    width : 80% !important;
+}
+
+.form-input {
+    width : 65% !important;
+    max-width : none !important;
+}
+
+.form-input-wide {
+    max-width : none !important;
+    display : inline-block;
+    width : 100%;
+}
+
+/*single fields with sublabels*/
+[data-type="control_textbox"] .form-input-wide .form-sub-label-container, 
+[data-type="control_fullname"] .form-input-wide .form-sub-label-container,
+[data-type="control_email"] .form-input-wide .form-sub-label-container,
+[data-type="control_textarea"] .form-input-wide .form-sub-label-container, 
+[data-type="control_dropdown"] .form-input-wide .form-sub-label-container,
+[data-type="control_textbox"] .form-input .form-sub-label-container, 
+[data-type="control_fullname"] .form-input .form-sub-label-container,
+[data-type="control_email"] .form-input .form-sub-label-container,
+[data-type="control_textarea"] .form-input .form-sub-label-container, 
+[data-type="control_dropdown"] .form-input .form-sub-label-container {
+    width : 100%;
+    max-width : none !important;
+}
+
+[data-type="control_dropdown"] .form-input-wide {
+    width : 100%;
+}
+
+/*responsive full name*/
+[data-type="control_fullname"] .form-sub-label-container {
+    width : 50% !important;
+    margin : 0 !important;
+    float : left;
+    box-sizing : border-box;
+}
+
+[data-type="control_fullname"] .form-label + div .form-sub-label-container {
+    display : inline-block;
+    padding-right : 5px;
+}
+
+[data-type="control_fullname"] .form-label + div .form-sub-label-container + .form-sub-label-container {
+    margin-right : 0;
+    padding-right : 0;
+    padding-left : 5px;
+}
+
+[data-type="control_fullname"] .form-label + div .form-sub-label-container + .form-sub-label-container {
+    margin-right : 0;
+    padding-right : 0;
+    padding-left : 5px;
+}
+
+[data-type="control_fullname"] .form-label + div .form-sub-label-container + .form-sub-label-container + .form-sub-label-container {
+    padding-left : 0;
+    padding-right : 5px;
+}
+
+[data-type="control_fullname"] .form-label + div .form-sub-label-container + .form-sub-label-container + .form-sub-label-container + .form-sub-label-container {
+    padding-left : 5px;
+    padding-right : 0;
+}
+
+[data-type="control_fullname"] .form-label + div .form-sub-label-container + .form-sub-label-container  + .form-sub-label-container + .form-sub-label-container + .form-sub-label-container {
+    padding-right : 5px;
+    padding-left : 0;
+}
+
+#sublabel_prefix, #sublabel_first, #sublabel_middle {
+    /*margin-bottom : 10px;
+    */;
+}
+
+/*remove sepatators on date and phone*/
+.phone-separate, .date-separate {
+    display : none;
+}
+
+/*responsive phone fields*/
+[data-type="control_phone"] input[name$="[area]"] {
+    width : 100%;
+}
+
+[data-type="control_phone"] input[name$="[phone]"] {
+    width : 100%;
+}
+
+[data-type="control_phone"] input[name$="[full]"] {
+    width : 100%;
+}
+
+[data-type="control_phone"] .form-sub-label-container {
+    width : 40%;
+    float : left;
+    box-sizing : border-box;
+    margin-right : 0;
+    padding-right : 12px;
+}
+
+/* responsive date time field */
+[data-type="control_datetime"] .form-textbox,
+[data-type="control_datetime"] .form-dropdown {
+    width : 100%;
+}
+
+[data-type="control_datetime"] .form-sub-label-container {
+    width : 28%;
+    padding-left : 4px;
+    box-sizing : border-box;
+    margin-right : 0;
+}
+
+[data-type="control_datetime"] .form-sub-label-container:first-child {
+    padding-left : 0;
+}
+
+[data-type="control_datetime"] .form-sub-label-container:first-child + .form-sub-label-container + .form-sub-label-container {
+    padding-right : 0;
+}
+
+[data-type="control_datetime"] .form-sub-label-container:last-child {
+    width : auto !important;
+}
+
+.allowTime-container .form-sub-label-container:last-child {
+    width : 20% !important;
+}
+
+span.allowTime-container {
+    width : 80%;
+    padding-top : 14px;
+}
+
+.allowTime-container span.form-sub-label-container {
+    width : 35%;
+}
+
+span.allowTime-container .form-dropdown {
+    width : 100%;
+}
+
+span.allowTime-container > span:first-child {
+    display : none;
+}
+
+span.allowTime-container > span:first-child + span {
+    padding-left : 0;
+}
+
+.showAutoCalendar + label {
+    display : none;
+}
+
+span.allowTime-container + span {
+    padding-top : 14px;
+}
+
+/*calendar lite mode*/
+[data-type="control_datetime"] div[style*="none"] + .form-sub-label-container {
+    width : 84%;
+    padding-left : 0;
+}
+
+/*responsive phone field*/
+[data-type="control_phone"] .form-sub-label-container + .form-sub-label-container {
+    width : 60%;
+    margin-right : 0;
+    padding-right : 0;
+    padding-left : 12px;
+}
+
+/*responsive full address fields*/
+.form-address-city, .form-address-line, .form-address-postal, 
+.form-address-state, .form-address-table, 
+.form-address-table .form-sub-label-container, .form-address-table select {
+    width : 100%;
+    max-width : 100%;
+}
+
+[data-type="control_address"] input[name$="[city]"],
+[data-type="control_address"] input[name$="[postal]"] {
+    width : 90% !important;
+}
+
+[data-type="control_address"] input[name$="[area]"] {
+    width : 60%;
+}
+
+/*reset submit button*/
+[data-type="control_button"] {
+    background : transparent !important;
+}
+
+.form-submit-button,
+.form-submit-reset,
+.form-submit-print {
+    outline : none;
+}
+
+/*remove other checkbox*/
+.form-checkbox-other, 
+.form-radio-other {
+    visibility : hidden !important;
+}
+
+/*shruken fields*/
+.form-line-column {
+    width : 50%;
+}
+
+.form-line-column .form-label-top {
+    width : 100% !important;
+}
+
+/*fix form builder display*/
+div#stage.form-all {
+    max-width : none !important;
+    margin-right : 0;
+}
+
+div#stage .form-input {
+    width : 64% !important;
+}
+
+/*remove first pagebreak back button*/
+.form-all .page-section:first-child .form-pagebreak .form-pagebreak-back-container {
+    display : none !important;
+}
+
+/* responsive pagebreak */
+.form-pagebreak-back-container {
+    width : 50% !important;
+    text-align : left;
+    box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+    float : left;
+}
+
+.form-pagebreak-next-container {
+    width : 50% !important;
+    text-align : right;
+    box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+    float : left;
+}
+
+/* radio-checkbox button make border 1px */
+.form-radio-item:not(#foo) label:after,
+.form-radio-item:not(#foo) label:before {
+    border-radius : 50%;
+}
+
+.form-checkbox-item:not(#foo) label:after,
+.form-checkbox-item:not(#foo) label:before {
+    border-radius : 0;
+}
+
+.form-radio-item:not(#foo) label:before,
+.form-checkbox-item:not(#foo) label:before {
+    border-width : 1px;
+}
+
+/*responsive credit card on payment fields*/
+table td + td {
+    padding-left : 0;
+}
+
+.form-address-table {
+    width : 100%;
+}
+
+[data-type="control_stripe"] .form-address-table,
+[data-type="control_stripe"] .form-address-table .form-textbox,
+[data-type="control_authnet"] .form-address-table,
+[data-type="control_authnet"] .form-address-table .form-textbox,
+#creditCardTable.form-address-table,
+#creditCardTable.form-address-table .form-textbox {
+    max-width : none;
+}
+
+[data-type="control_stripe"] .form-address-table td:last-child .form-sub-label-container,
+[data-type="control_authnet"] .form-address-table td:last-child .form-sub-label-container,
+#creditCardTable.form-address-table td:last-child .form-sub-label-container {
+    margin-left : 0;
+    white-space : normal;
+}
+
+[data-type="control_stripe"] .form-address-table td .form-sub-label-container,
+[data-type="control_authnet"] .form-address-table td .form-sub-label-container,
+#creditCardTable.form-address-table td .form-sub-label-container {
+    width : 100%;
+}
+
+[data-type="control_stripe"] .form-address-table .form-textbox,
+[data-type="control_stripe"] .form-address-table .form-dropdown,
+[data-type="control_authnet"] .form-address-table .form-textbox,
+[data-type="control_authnet"] .form-address-table .form-dropdown,
+#creditCardTable.form-address-table .form-textbox,
+#creditCardTable.form-address-table .form-dropdown {
+    width : 100%;
+    visibility : visible;
+}
+
+[data-type="control_stripe"] .form-address-table tbody > tr:first-child + tr td:first-child span,
+[data-type="control_authnet"] .form-address-table tbody > tr:first-child + tr td:first-child span,
+#creditCardTable.form-address-table tbody > tr:first-child + tr td:first-child span {
+    margin : 0;
+    padding-right : 6px;
+    box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+}
+
+[data-type="control_stripe"] .form-address-table tbody > tr:first-child + tr td:first-child + td span,
+[data-type="control_authnet"] .form-address-table tbody > tr:first-child + tr td:first-child + td span,
+#creditCardTable.form-address-table tbody > tr:first-child + tr td:first-child + td span {
+    margin : 0;
+    padding-left : 6px;
+    box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+}
+
+[data-type="control_stripe"] .form-address-table tbody > tr:first-child + tr +tr td:first-child span,
+[data-type="control_stripe"] .form-address-table tbody > tr:first-child + tr +tr+tr td:first-child span,
+[data-type="control_authnet"] .form-address-table tbody > tr:first-child + tr +tr td:first-child span,
+[data-type="control_authnet"] .form-address-table tbody > tr:first-child + tr +tr+tr td:first-child span,
+#creditCardTable.form-address-table tbody > tr:first-child + tr +tr td:first-child span,
+#creditCardTable.form-address-table tbody > tr:first-child + tr +tr+tr td:first-child span {
+    margin : 0;
+    padding-right : 6px;
+    width : 50% !important;
+    visibility : hidden;
+    float : left;
+    box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+}
+
+[data-type="control_stripe"] .form-address-table tbody > tr:first-child + tr +tr td:first-child span + span,
+[data-type="control_stripe"] .form-address-table tbody > tr:first-child + tr +tr+tr td:first-child span + span,
+[data-type="control_authnet"] .form-address-table tbody > tr:first-child + tr +tr td:first-child span + span,
+[data-type="control_authnet"] .form-address-table tbody > tr:first-child + tr +tr+tr td:first-child span + span,
+#creditCardTable.form-address-table tbody > tr:first-child + tr +tr td:first-child span + span,
+#creditCardTable.form-address-table tbody > tr:first-child + tr +tr+tr td:first-child span + span {
+    margin : 0;
+    padding-top : 0 !important;
+    padding-right : 0;
+    padding-left : 6px;
+    width : 50% !important;
+    box-sizing : border-box;
+    -webkit-box-sizing : border-box;
+}
+
+.cc_ccv {
+    width : 100% !important;
+}
+
+[data-type="control_stripe"] .form-address-table .form-sub-label,
+[data-type="control_authnet"] .form-address-table .form-sub-label,
+#creditCardTable.form-address-table .form-sub-label {
+    visibility : visible;
+}
+
+/*cc fix city state, country */
+[data-type="control_stripe"] .form-address-table td[width="50%"]>span:first-child,
+[data-type="control_authnet"] .form-address-table td[width="50%"]>span:first-child,
+#creditCardTable.form-address-table td[width="50%"]>span:first-child {
+    box-sizing : border-box;
+    padding-right : 7px;
+}
+
+[data-type="control_stripe"] .form-address-table td[width="50%"] + td >span:first-child,
+[data-type="control_authnet"] .form-address-table td[width="50%"] + td >span:first-child,
+#creditCardTable.form-address-table td[width="50%"] + td >span:first-child {
+    box-sizing : border-box;
+    padding-left : 7px;
+}
+
+[data-type="control_stripe"] .form-address-table td[width="50%"] + td[width="50%"] >span:first-child,
+[data-type="control_authnet"] .form-address-table td[width="50%"] + td[width="50%"] >span:first-child,
+#creditCardTable.form-address-table td[width="50%"] + td[width="50%"] >span:first-child {
+    box-sizing : border-box;
+    padding-right : 0;
+}
+
+.hover-product-item:hover {
+    color : inherit;
+}
+
+/*fix for braintree cc styling*/
+[data-type="control_braintree"] .form-sub-label-container {
+    width : 100% !important;
+    padding : 4px;
+    box-sizing : border-box;
+}
+
+[data-type="control_braintree"] .form-textbox {
+    width : 100%;
+}
+
+.braintree-hosted-fields {
+    width : 100% !important;
+    box-sizing : border-box;
+    min-height : 28px;
+}
+
+/*remove bottom spacing on CC section*/
+#creditCardTable.form-address-table tbody tr + tr + tr td,
+[data-type="control_stripe"] .form-address-table tbody tr + tr + tr td,
+[data-type="control_authnet"] .form-address-table tbody tr + tr + tr td {
+    padding-bottom : 0;
+}
+
+@media screen and (max-device-width:768px){
+    .form-all {
+        margin : 0 auto !important;
+        width : 100% !important;
+    }
+
+    [data-type=control_fullname] .form-sub-label-container:first-child {
+        margin-right : 0;
+    }
+
+}
+
+@media screen and (max-width:480px){
+    .jotform-form {
+        padding : 0;
+    }
+
+    .form-input {
+        width : 100% !important;
+    }
+
+    .form-label {
+        width : 100% !important;
+        float : none !important;
+    }
+
+    .form-line-column {
+        width : 100% !important;
+    }
+
+    div.form-header-group {
+        margin : 0 !important;
+        padding : 24px 20px !important;
+    }
+
+    [data-type="control_datetime"] .form-sub-label-container {
+        float : left;
+    }
+
+    [data-type=control_fullname] .form-sub-label-container:first-child {
+        margin-right : 0;
+    }
+
+}
+
+/*----fix the new awful error message----*/
+li.form-line-error .form-error-message img {
+    position : static !important;
+    margin-top : 0;
+    left : 0;
+    top : 0;
+    vertical-align : middle;
+    padding : 2px 0;
+}
+
+li.form-line-error .form-error-message {
+    padding : 2px 6px;
+}
+
+
+    /* Injected CSS Code */
+</style>
+
+<link type="text/css" rel="stylesheet" href="https://cdn02.jotfor.ms/css/styles/buttons/form-submit-button-simple_blue.css?3.3.33370"/>
+<form class="jotform-form" action="https://submit.jotform.com/submit/221406334929456/" method="post" name="form_221406334929456" id="221406334929456" accept-charset="utf-8" autocomplete="on">
+  <input type="hidden" name="formID" value="221406334929456" />
+  <input type="hidden" id="JWTContainer" value="" />
+  <input type="hidden" id="cardinalOrderNumber" value="" />
+  <div role="main" class="form-all">
+    <ul class="form-section page-section">
+      <li id="cid_14" class="form-input-wide" data-type="control_head">
+        <div class="form-header-group  header-default">
+          <div class="header-text httac htvam">
+            <h2 id="header_14" class="form-header" data-component="header">
+              Contact Us
+            </h2>
+            <div id="subHeader_14" class="form-subHeader">
+              Reserve Booking
+            </div>
+          </div>
         </div>
-
-        <div class="image">
-            <img src="images/home-img.png" alt="">
+      </li>
+      <li class="form-line form-line-column form-col-1 jf-required" data-type="control_textbox" id="id_3">
+        <label class="form-label form-label-top" id="label_3" for="input_3">
+          First Name
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_3" class="form-input-wide jf-required">
+          <input type="text" id="input_3" name="q3_firstName" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" size="23" value="" placeholder=" " data-component="textbox" aria-labelledby="label_3" required="" />
         </div>
-
-    </section>
-
-
-    <section class="speciality" id="speciality">
-
-        <h1 class="heading">our <span>speciality</span></h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <img class="image" src="images/s-img-1.jpg" alt="">
-                <div class="content">
-                    <img src="images/s-1.png" alt="">
-                    <h3>tasty burger</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure commodi accusantium perspiciatis
-                        ex animi maxime voluptates hic? Hic excepturi deserunt quidem eligendi dolorem, officia!</p>
-                </div>
-            </div>
-            <div class="box">
-                <img class="image" src="images/s-img-2.jpg" alt="">
-                <div class="content">
-                    <img src="images/s-2.png" alt="">
-                    <h3>tasty pizza</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure commodi accusantium perspiciatis
-                        ex animi maxime voluptates hic? Hic excepturi deserunt quidem eligendi dolorem, officia!</p>
-                </div>
-            </div>
-            <div class="box">
-                <img class="image" src="images/s-img-3.jpg" alt="">
-                <div class="content">
-                    <img src="images/s-3.png" alt="">
-                    <h3>cold ice-cream</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure commodi accusantium perspiciatis
-                        ex animi maxime voluptates hic? Hic excepturi deserunt quidem eligendi dolorem, officia!</p>
-                </div>
-            </div>
-            <div class="box">
-                <img class="image" src="images/s-img-4.jpg" alt="">
-                <div class="content">
-                    <img src="images/s-4.png" alt="">
-                    <h3>cold drinks</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure commodi accusantium perspiciatis
-                        ex animi maxime voluptates hic? Hic excepturi deserunt quidem eligendi dolorem, officia!</p>
-                </div>
-            </div>
-            <div class="box">
-                <img class="image" src="images/s-img-5.jpg" alt="">
-                <div class="content">
-                    <img src="images/s-5.png" alt="">
-                    <h3>tasty sweets</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure commodi accusantium perspiciatis
-                        ex animi maxime voluptates hic? Hic excepturi deserunt quidem eligendi dolorem, officia!</p>
-                </div>
-            </div>
-            <div class="box">
-                <img class="image" src="images/s-img-6.jpg" alt="">
-                <div class="content">
-                    <img src="images/s-6.png" alt="">
-                    <h3>healthy breakfast</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure commodi accusantium perspiciatis
-                        ex animi maxime voluptates hic? Hic excepturi deserunt quidem eligendi dolorem, officia!</p>
-                </div>
-            </div>
+      </li>
+      <li class="form-line form-line-column form-col-2 jf-required" data-type="control_textbox" id="id_9">
+        <label class="form-label form-label-top" id="label_9" for="input_9">
+          Last Name
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_9" class="form-input-wide jf-required">
+          <input type="text" id="input_9" name="q9_lastName" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" size="25" value="" placeholder=" " data-component="textbox" aria-labelledby="label_9" required="" />
         </div>
-
-    </section>
-
-
-    <section class="popular" id="popular">
-
-        <h1 class="heading">most <span>popular </span>foods</h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <span class="price"> $5 - $20 </span>
-                <img src="images/p-1.jpg" alt="">
-                <h3>tasty burger</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
-                <a href="#" class="btn">order now</a>
-            </div>
-            <div class="box">
-                <span class="price"> $5 - $20 </span>
-                <img src="images/p-2.jpg" alt="">
-                <h3>tasty cakes</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
-                <a href="#" class="btn">order now</a>
-            </div>
-            <div class="box">
-                <span class="price"> $5 - $20 </span>
-                <img src="images/p-3.jpg" alt="">
-                <h3>tasty sweets</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
-                <a href="#" class="btn">order now</a>
-            </div>
-            <div class="box">
-                <span class="price"> $5 - $20 </span>
-                <img src="images/p-4.jpg" alt="">
-                <h3>tasty cupcakes</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
-                <a href="#" class="btn">order now</a>
-            </div>
-            <div class="box">
-                <span class="price"> $5 - $20 </span>
-                <img src="images/p-5.jpg" alt="">
-                <h3>cold drinks</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
-                <a href="#" class="btn">order now</a>
-            </div>
-            <div class="box">
-                <span class="price"> $5 - $20 </span>
-                <img src="images/p-6.jpg" alt="">
-                <h3>cold ice creams</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
-                <a href="#" class="btn">order now</a>
-            </div>
-
-
+      </li>
+      <li class="form-line form-line-column form-col-1 form-line-column-clear jf-required" data-type="control_textbox" id="id_10">
+        <label class="form-label form-label-top" id="label_10" for="input_10">
+          E-mail
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_10" class="form-input-wide jf-required">
+          <input type="text" id="input_10" name="q10_email10" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" size="23" value="" placeholder=" " data-component="textbox" aria-labelledby="label_10" required="" />
         </div>
-    </section>
-
-
-    <section class="steps">
-        <div class="box">
-            <img src="images/step-1.jpg" alt="">
-            <h3>choose your favourite food</h3>
+      </li>
+      <li class="form-line form-line-column form-col-2 jf-required" data-type="control_textbox" id="id_11">
+        <label class="form-label form-label-top" id="label_11" for="input_11">
+          Phone
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_11" class="form-input-wide jf-required">
+          <input type="text" id="input_11" name="q11_phone" data-type="input-textbox" class="form-textbox validate[required]" data-defaultvalue="" size="25" value="" placeholder=" " data-component="textbox" aria-labelledby="label_11" required="" />
         </div>
-        <div class="box">
-            <img src="images/step-2.jpg" alt="">
-            <h3>free and fast delivery</h3>
+      </li>
+      <li class="form-line jf-required" data-type="control_textarea" id="id_19">
+        <label class="form-label form-label-top form-label-auto" id="label_19" for="input_19">
+          Message
+          <span class="form-required">
+            *
+          </span>
+        </label>
+        <div id="cid_19" class="form-input-wide jf-required">
+          <textarea id="input_19" class="form-textarea validate[required]" name="q19_message" cols="70" rows="6" data-component="textarea" required="" aria-labelledby="label_19"></textarea>
         </div>
-        <div class="box">
-            <img src="images/step-3.jpg" alt="">
-            <h3>easy payment methods</h3>
+      </li>
+      <li class="form-line" data-type="control_button" id="id_8">
+        <div id="cid_8" class="form-input-wide">
+          <div style="text-align:center" data-align="center" class="form-buttons-wrapper form-buttons-center   jsTest-button-wrapperField">
+            <button id="input_8" type="submit" class="form-submit-button form-submit-button-simple_blue submit-button jf-form-buttons jsTest-submitField" data-component="button" data-content="">
+              Submit
+            </button>
+          </div>
         </div>
-        <div class="box">
-            <img src="images/step-4.jpg" alt="">
-            <h3>and finally, enjoy your food</h3>
-        </div>
+      </li>
+      <li style="display:none">
+        Should be Empty:
+        <input type="text" name="website" value="" />
+      </li>
+    </ul>
+  </div>
+  <script>
+  JotForm.showJotFormPowered = "new_footer";
+  </script>
+  <script>
+  JotForm.poweredByText = "Powered by Jotform";
+  </script>
+  <input type="hidden" class="simple_spc" id="simple_spc" name="simple_spc" value="221406334929456" />
+  <script type="text/javascript">
+  var all_spc = document.querySelectorAll("form[id='221406334929456'] .si" + "mple" + "_spc");
+for (var i = 0; i < all_spc.length; i++)
+{
+  all_spc[i].value = "221406334929456-221406334929456";
+}
+  </script>
 
-    </section>
-
-
-    <section class="gallery" id="gallery">
-
-        <h1 class="heading">our food <span> gallery</span></h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <img src="images/g-1.jpg" alt="">
-                <div class="content">
-                    <h3>tasty food</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus sequi !</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
+</form>
+                </center>
             </div>
-            <div class="box">
-                <img src="images/g-2.jpg" alt="">
-                <div class="content">
-                    <h3>tasty food</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus sequi !</p>
-                    <a href="#" class="btn">order now</a>
+        </section>
+        <!--==================== FEATURES ====================-->
+        <!-- <section class="features section">
+
+        </section> -->
+
+        <!--==================== FEATURED ====================-->
+
+       <div>
+           <center>
+               
+           </center>
+       </div>
+
+
+        <!--==================== OFFER ====================-->
+        <!-- <section class="offer section">
+
+        </section> -->
+
+        <!--==================== LOGOS ====================-->
+        <!-- <section class="logos section">
+            
+        </section>-->
+    </div>
+
+    <!-- <div class="portfolioo-popup">
+
+        <div class="portfolio-popup"> -->
+    <button type="button" class="btn pp-close" style="display: none;"><i class="fas fa-times"></i></button>
+    <!--  <div class="book-appointment">
+        <h2>Personal Details</h2>
+        <div class="book-agileinfo-form">
+            <form action="#" method="post" id="contactForm">
+                <div class="alert">Reservation Booked Successfully</div>
+                <div class="main-agile-sectns">
+                    <div class="agileits-btm-spc form-text1">
+                        <input type="text" name="Name" id="namee" placeholder="Full Name" required="">
+                    </div>
+                    <div class="agileits-btm-spc form-text2">
+                        <input type="text" name="Phone no" id="phonee" placeholder="Phone number" required="">
+                    </div>
                 </div>
-            </div>
-
-            <div class="box">
-                <img src="images/g-3.jpg" alt="">
-                <div class="content">
-                    <h3>tasty food</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus sequi !</p>
-                    <a href="#" class="btn">order now</a>
+                <div class="agileits-btm-spc form-text">
+                    <input type="email" name="email" id="emailid" placeholder="Email" required="">
                 </div>
-            </div>
-
-            <div class="box">
-                <img src="images/g-4.jpg" alt="">
-                <div class="content">
-                    <h3>tasty food</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus sequi !</p>
-                    <a href="#" class="btn">order now</a>
+                <div class="clear"></div>
+                <h2 class="sub-head-w3ls">Booking Details</h2>
+                <div class="main-agile-sectns">
+                    <div class="agileits-btm-spc form-text1">
+                        <input id="datepicker" name="Text" type="text" placeholder="Pick-up Date" value=""
+                            onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'mm/dd/yyyy';}"
+                            required="">
+                    </div>
+                    <div class="agileits-btm-spc form-text2">
+                        <input type="text" id="timepicker" name="Time" class="timepicker form-control"
+                            placeholder="Pick-up Time" value="">
+                    </div>
                 </div>
-            </div>
-            <div class="box">
-                <img src="images/g-5.jpg" alt="">
-                <div class="content">
-                    <h3>tasty food</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus sequi !</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/g-6.jpg" alt="">
-                <div class="content">
-                    <h3>tasty food</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus sequi !</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/g-7.jpg" alt="">
-                <div class="content">
-                    <h3>tasty food</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus sequi !</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/g-8.jpg" alt="">
-                <div class="content">
-                    <h3>tasty food</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus sequi !</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-            </div>
-            <div class="box">
-                <img src="images/g-9.jpg" alt="">
-                <div class="content">
-                    <h3>tasty food</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo possimus sequi !</p>
-                    <a href="#" class="btn">order now</a>
-                </div>
-            </div>
-        </div>
-
-    </section>
-
-    <section class="review" id="review">
-        <h1 class="heading">our customers <span>reviews</span></h1>
-
-        <div class="box-container">
-
-            <div class="box">
-                <img src="images/pic1.png" alt="">
-                <h3>john doe</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis esse deleniti voluptates error
-                    maiores autem praesentium nostrum laudantium ipsa temporibus perspiciatis</p>
-            </div>
-            <div class="box">
-                <img src="images/pic2.png" alt="">
-                <h3>john doe</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis esse deleniti voluptates error
-                    maiores autem praesentium nostrum laudantium ipsa temporibus perspiciatis</p>
-            </div>
-            <div class="box">
-                <img src="images/pic3.png" alt="">
-                <h3>john doe</h3>
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis esse deleniti voluptates error
-                    maiores autem praesentium nostrum laudantium ipsa temporibus perspiciatis</p>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section class="order" id="order">
-
-        <h1 class="heading">order <span>now</span></h1>
-
-        <div class="row">
-
-            <div class="image">
-                <img src="images/order-img.jpg" alt="">
-            </div>
-
-            <form action="">
-
-                <div class="inputBox">
-                    <input type="text" placeholder="name">
-                    <input type="email" placeholder="email">
-                </div>
-                <div class="inputBox">
-                    <input type="number" placeholder="number">
-                    <input type="text" placeholder="food name">
+                <div class="main-agile-sectns">
+                    <div class="agileits-btm-spc form-text1">
+                        <input type="text" name="Pick-up Location" placeholder="Pick-up Location" required="">
+                    </div>
+                    <div class="agileits-btm-spc form-text2">
+                        <input type="text" name="Drop-off Location" placeholder="Drop-off Location" required="">
+                    </div>
                 </div>
 
-                <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
-
-                <input type="submit" value="order now" class="btn">
+                <div class="main-agile-sectns">
+                    <div class="agileits-btm-spc form-text1">
+                        <select id="country1" onchange="change_country(this.value)" class="frm-field required sect">
+                            <option value="">No.of Passengers</option>
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                        </select>
+                    </div>
+                    <div class="agileits-btm-spc form-text2">
+                        <select id="country" onchange="change_country(this.value)" class="frm-field required">
+                            <option value="">Direction</option>
+                            <option value="">Only One Way</option>
+                            <option value="">Return</option>
+                        </select>
+                    </div>
+                </div>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+                <div class="clear"></div>
             </form>
         </div>
-    </section>
 
-    <section id="footer" class="footer">
-
-        <div class="share">
-            <a href="#" class="btn">facebook</a>
-            <a href="#" class="btn">twitter</a>
-            <a href="#" class="btn">instagram</a>
-            <a href="#" class="btn">pinterest</a>
-            <a href="#" class="btn">linkedin</a>
-        </div>
-
-        <h1 class="credits">created by <span>mr web designer</span> | all rights reserved</h1>
-
-    </section>
-
-    <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
-
-    <!-- 
-    <div class="loader-container">
-        <img src="images/loader.gif" alt="">
     </div>
- -->
+    </div>
+    </div>
+    -->
 
 
-    <script src="script.js"></script>
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="shape shape__big"></div>
+        <div class="shape shape__small"></div>
+
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">
+                    <i class="ri-steering-line"></i>C-Cab
+                </a>
+                <p class="footer__description">
+                    We offer the best electric cars of <br>
+                    the most recognized brands in <br>
+                    the world.
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Company
+                </h3>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">About Us
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Our Offerings</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Safety</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Blog</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Information
+                </h3>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Request a quote
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__link">-</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Follow us
+                </h3>
+
+                <ul class="footer__social">
+                    <a href="
+                    https://www.facebook.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a href="
+                    https://www.instagram.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-instagram-line"></i>
+                    </a>
+                    <a href="
+                    https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-twitter-line"></i>
+                    </a>
+                    <a href="
+                    https://twitter.com/" target="_blank" class="footer__social-link">
+                        <i class="ri-linkedin-line"></i>
+                    </a>
+                </ul>
+                <strong>My Name: <small>Messara Ydriss</small></strong><br>
+                <strong>Email: <small><a style="text-decoration: ;none; color:#0575ec" href="mailto:ymessluxury@gmail.com">ymessluxury@gmail.com</a></small></strong><br>
+                <strong>Email: <small><a style="text-decoration: ;none; color:#0575ec" href="tel:+3307626593">+33 0762 6593</a></small></strong><br>
+
+            </div>
+        </div>
+        <span class="footer__copy">
+            &#169; Created by | <span style="color: hsl(219, 69%, 52%);">Sahil Ahmed</span> | All rigths reserved.
+        </span>
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min..js"></script>
+
+    <!--=============== FIREBASE CDN LIN  ===============-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/9.6.11/firebase-analytics-compat.min.js"></script>
+
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+    <!--=============== MIXITUP JS ===============-->
+    <script src=""></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/mainn.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="js/wickedpicker.js"></script>
+    <script type="text/javascript">
+        $('.timepicker').wickedpicker({ twentyFour: false });
+    </script>
+
 </body>
 
 </html>
